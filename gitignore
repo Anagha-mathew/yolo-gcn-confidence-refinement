@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Data & large artifacts — keep the repo lightweight, don't commit raw datasets or model weights
+data/
+*.pt
+*.pth
+*.zip
+detections.json
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+
+# Secrets — never commit tokens or credentials
+.env
+*token*
