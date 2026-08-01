@@ -1,0 +1,4 @@
+method,mean_delta_all,mean_delta_TP,mean_delta_FP,TP_boosted_count_delta_ge_0.02,TP_suppressed_count_delta_le_-0.02,FP_suppressed_count_delta_le_-0.02,FP_boosted_count_delta_ge_0.02,total_TP_detections,total_FP_detections,interpretation
+YOLO + GCN learned refinement,0.0021486137429869876,0.007874983148184082,-0.0029265668468296075,1883,910,1396,957,5705,6437,Useful if FP_suppressed is high and FP_boosted is controlled; report as diagnostic only.
+YOLO + semantic rule refinement,0.018278553669563807,0.02038224457545201,0.016414089382148524,3025,0,0,2003,5705,6437,Useful if FP_suppressed is high and FP_boosted is controlled; report as diagnostic only.
+YOLO + GCN + semantic rule refinement,0.020012143700504945,0.02775312390873873,0.013151448953266523,3221,247,408,2098,5705,6437,Useful if FP_suppressed is high and FP_boosted is controlled; report as diagnostic only.

@@ -1,0 +1,5 @@
+method,mean_confidence,mean_confidence_delta_vs_yolo,median_confidence_delta_vs_yolo,increased_detections,decreased_detections,unchanged_detections,increase_ratio,largest_increase,largest_decrease,interpretation
+YOLO baseline,0.3222805539789276,0.0,0.0,0,0,12235,0.0,0.0,0.0,Original detector confidence without graph refinement.
+YOLO + GCN learned refinement,0.32236141117558365,8.08571966560604e-05,-3.528594970703125e-05,6081,6151,3,0.4970167552104618,0.0402803719043731,-0.0337788164615631,Zero-centered learned graph correction only. Tests what the GCN contributes without rules.
+YOLO + semantic rule refinement,0.355597809876015,0.03331725589708738,0.0312217772006988,11932,99,204,0.9752349816101349,0.0817883014678955,-0.0286085307598114,Explicit context heuristic only. Tests how much improvement comes from hand-coded priors.
+YOLO + GCN + semantic rule refinement,0.35569889947778116,0.03341834549885353,0.0303605198860168,11955,280,0,0.9771148344912137,0.1096015870571136,-0.0447075366973876,Combined learned GCN and semantic rule refinement.

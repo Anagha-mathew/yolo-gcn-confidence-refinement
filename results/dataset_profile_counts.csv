@@ -1,0 +1,20 @@
+profile_dimension,value,image_count
+selection_category,pedestrian_vehicle,125
+selection_category,dense_traffic,125
+selection_category,occlusion_like,100
+selection_category,night_low_visibility,75
+selection_category,traffic_control,50
+selection_category,general_driving,25
+timeofday,daytime,355
+timeofday,night,101
+timeofday,dawn/dusk,44
+weather,clear,206
+weather,overcast,98
+weather,undefined,97
+weather,partly cloudy,57
+weather,rainy,24
+weather,snowy,18
+scene,city street,450
+scene,highway,35
+scene,residential,13
+scene,parking lot,2
